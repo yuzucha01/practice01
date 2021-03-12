@@ -1,0 +1,59 @@
+/* ------------------------------全体------------------------------ */
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* ------------------------------header------------------------------ */
+header {
+  height: 80px;
+  width: 100%;
+  background-color: white;
+  opacity: 0.7;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  border-bottom: 1px solid black;
+}
+
+.icon {
+  display: flex;
+}
+
+.icon img {
+  padding: 10px 30px;
+}
+
+.icon p {
+  margin: 30px 0;
+}
+
+/* ------------------------------main------------------------------ */
+main {
+  height: 600px;
+  width: 100%;
+  border-bottom: 1px solid black;
+}
+
+.slide {
+  position: absolute;
+}
+
+.slide-text {
+  top: 250px;
+  left: 80px;
+  position: relative;
+}
+
+/* ------------------------------中心------------------------------ */
+.common {
+  height: 900px;
+  width: 100%;
+  border-bottom: 1px solid black;
+}
+/* ------------------------------footer------------------------------ */
+footer {
+  height: 300px;
+  width: 100%;
+  border-bottom: 1px solid black;
+}
