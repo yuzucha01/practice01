@@ -50,7 +50,25 @@ main {
   height: 900px;
   width: 100%;
   border-bottom: 1px solid black;
+  display: flex;
+  justify-content: space-around;
 }
+
+.common-icon {
+  padding-top: 30px;
+}
+
+.common-icon img {
+  position: absolute;
+}
+
+.common-icon p {
+  position: relative;
+  font-size: 40px;
+  top: 5px;
+  left: 20px;
+}
+
 /* ------------------------------footer------------------------------ */
 footer {
   height: 300px;
